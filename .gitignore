@@ -34,5 +34,5 @@ build/
 
 # Ignorar archivos de MySQL que no deben subirse al repositorio
 data/mysql/mysql.sock
-volume-data/mysql_keycloak_data/mysql.sock
+volume-data/*
 
