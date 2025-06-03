@@ -1,0 +1,44 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignorar archivos de MySQL que no deben subirse al repositorio
+mysql/auto.cnf
+mysql/binlog.index
+mysql/ib_buffer_pool
+mysql/ib_logfile*
+mysql/ibdata*
+mysql/mysql.sock
+mysql/*.pid
+mysql/#*
+docker/mysql/data/
